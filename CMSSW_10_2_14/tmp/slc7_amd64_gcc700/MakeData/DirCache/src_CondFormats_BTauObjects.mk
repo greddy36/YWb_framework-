@@ -1,2 +1,0 @@
-ALL_PACKAGES += CondFormats/BTauObjects
-subdirs_src_CondFormats_BTauObjects := src_CondFormats_BTauObjects_interface src_CondFormats_BTauObjects_src src_CondFormats_BTauObjects_test
