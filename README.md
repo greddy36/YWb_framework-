@@ -47,4 +47,6 @@ STEPS TO MAKE SKIMS FROM CRAB OUTPUT ON CONDOR
 	>sh submit.csh
 
 MAKING FITTING HISTOGRAMS FOR HIGGS COMBINE.
+	So far, the Higgs Combine part has been like a blackbox to me because Andrew ran it and he gave me the template files to make the input histograms for Higgs combine.
+	I use the new_lognaormal_6chan_5par.C to make the fits on B1M, B1T and B2M channels of MC backgorunds and then use the fit function to make histograms for 6channel file that has each channel seperated into plus and minu.s 
 	
