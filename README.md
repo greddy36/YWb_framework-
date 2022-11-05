@@ -46,3 +46,5 @@ STEPS TO MAKE SKIMS FROM CRAB OUTPUT ON CONDOR
 	To submit jobs in bulk see the submit file in the same area and you need to do this, 
 	>sh submit.csh
 
+MAKING FITTING HISTOGRAMS FOR HIGGS COMBINE.
+	
