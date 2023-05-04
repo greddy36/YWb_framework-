@@ -1,7 +1,8 @@
 # YWb_framework-
 Code and framework to produce NANOAOD samples from scratch and also the input files for Higgs Combine and Keras analysis.
 
-STEPS TO COMPILE CRAB AREA 
+STEPS TO COMPILE CRAB AREA  
+
 	Copy CMSSW_10_2_14 to lxplus
 	>cd CMSSW_10_2_14/src
 	>cmsenv
@@ -23,6 +24,7 @@ STEPS TO COMPILE CRAB AREA
 	If this works then then everything is set.
 
 STEPS TO MAKE SKIMS FROM CRAB OUTPUT ON CONDOR
+
 	Please follow these set of instructions to run the condor jobs, 
 	1. The code to run the local analysis is in "analyses_with_mva_batch.py
 	You can interactive run the code like this, 
@@ -47,6 +49,7 @@ STEPS TO MAKE SKIMS FROM CRAB OUTPUT ON CONDOR
 	>sh submit.csh
 
 MAKING FITTING HISTOGRAMS FOR HIGGS COMBINE.
+
 	So far, the Higgs Combine part has been like a blackbox to me because Andrew ran it and he gave me the template files to make the input histograms for Higgs combine.
 	I use the new_lognaormal_6chan_5par.C to make the fits on B1M, B1T and B2M channels of MC backgorunds and then use the fit function to make histograms for 6channel file that has each channel seperated into plus and minu.s 
 	
