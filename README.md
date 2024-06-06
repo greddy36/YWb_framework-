@@ -7,6 +7,7 @@ STEPS TO COMPILE CRAB AREA
 	>cd CMSSW_10_2_14/src
 	>cmsenv
 	>source /cvmfs/cms.cern.ch/crab3/crab.sh
+ 	>source /cvmfs/cms.cern.ch/common/crab-setup.sh #(if on cmslpc)
 	>voms-proxy-init --voms cms --valid 192:00
 	>scram b vclean
 	>scram b -j8
